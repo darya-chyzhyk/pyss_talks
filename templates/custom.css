@@ -3,7 +3,7 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 
 body { 
-  background-image: url('background.svg');
+  background-image: url('imgs/background.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left bottom;
@@ -22,13 +22,14 @@ body {
 }
 
 .reveal {
-    background-image: url('logo_for_slide.svg');
+    background-image: url('imgs/logo_for_slide.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right bottom;
     background-size: 450px;
 }
 
+/*
 code,pre{
     padding:0 3px 2px;
     font-family:monospace;
@@ -46,4 +47,4 @@ code{
     border:1px solid #e1e1e8;
     white-space:nowrap
 }
-
+*/
