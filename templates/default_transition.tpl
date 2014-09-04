@@ -9,6 +9,9 @@
 
 Reveal.initialize({
 
+    // Display controls in the bottom right corner
+    //controls: true,
+
     // Display a presentation progress bar
     //progress: true,
 
@@ -25,10 +28,10 @@ Reveal.initialize({
     //overview: true,
 
     // Vertical centering of slides
-    //center: true,
+    center: false,
 
     // Loop the presentation
-    loop: true,
+    //loop: false,
 
     // Change the presentation direction to be RTL
     //rtl: false,
@@ -42,7 +45,7 @@ Reveal.initialize({
     //mouseWheel: false,
 
     // Transition style
-    transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+    transition: 'concave', // default/cube/page/concave/zoom/linear/fade/none
 
     // Transition speed
     //transitionSpeed: 'default', // default/fast/slow
@@ -51,7 +54,7 @@ Reveal.initialize({
     //backgroundTransition: 'default', // default/linear/none
 
     // Theme
-    theme: 'solarized', // available themes are in /css/theme
+    theme: 'solarized' // available themes are in /css/theme
 
 });
 
