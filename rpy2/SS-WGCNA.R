@@ -11,7 +11,7 @@ library(WGCNA);
 # The following setting is important, do not omit.
 options(stringsAsFactors = FALSE);
 #Read in the seastar data set
-SSData = read.csv("/Users/sr320/Dropbox/Steven/eimd/data/wgcna/Phel_rnaseq_normalized_expression.csv");
+SSData = read.csv("Phel_rnaseq_normalized_expression.csv");
 # Take a quick look at what is in the data set:
 dim(SSData);
 names(SSData);
@@ -83,3 +83,4 @@ addGuide = TRUE, guideHang = 0.05)
 moduleLabels = net$colors
 moduleColors = labels2colors(net$colors)
 table(moduleColors)
+
